@@ -85,7 +85,7 @@ class Home extends StatelessWidget {
                     fontSize: 22.sp,
                     fontWeight: FontWeight.w700,
                     color: Colors.white,
-                    height: 2.8,
+                    height: 1.2,
                     fontFamily: 'AktivGrotesk'),
                 textAlign: TextAlign.center,
               ),
@@ -95,7 +95,7 @@ class Home extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 13.sp,
                     fontWeight: FontWeight.w700,
-                    color: Color(0xffA19DAA),
+                    color: const Color(0xffA19DAA),
                     fontFamily: 'AktivGrotesk'),
                 textAlign: TextAlign.center,
               ),
@@ -202,7 +202,7 @@ class Home extends StatelessWidget {
                           fontSize: 12.sp,
                           fontWeight: FontWeight.w700,
                           fontFamily: 'AktivGrotesk',
-                          color: Color(0xffF2BC3D)),
+                          color: const Color(0xffF2BC3D)),
                     ),
                     const Spacer(),
                     SvgPicture.asset(
@@ -217,7 +217,7 @@ class Home extends StatelessWidget {
                           fontSize: 12.sp,
                           fontWeight: FontWeight.w700,
                           fontFamily: 'AktivGrotesk',
-                          color: Color(0xff8C8797)),
+                          color: const Color(0xff8C8797)),
                     )
                   ],
                 ),
